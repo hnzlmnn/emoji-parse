@@ -1,0 +1,31 @@
+{
+  "name": "emoji-parse",
+  "version": "1.0.0",
+  "description": "An emoji parser",
+  "main": "./build/main.js",
+  "types": "./build/main.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Malte Heinzelmann",
+  "license": "BSD-3-Clause",
+  "devDependencies": {
+    "@types/debug": "^4.1.5",
+    "@types/node": "^12.6.8",
+    "@types/node-emoji": "^1.8.1",
+    "@types/chai": "^4.2.0",
+    "@types/mocha": "^5.2.7",
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0",
+    "ts-node": "^8.3.0",
+    "ts-node-dev": "^1.0.0-pre.40",
+    "tslint": "^5.18.0"
+  },
+  "dependencies": {
+    "debug": "^4.1.1",
+    "emojilib": "^2.4.0",
+    "node-emoji": "^1.10.0",
+    "typescript": "^3.5.3"
+  }
+}
